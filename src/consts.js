@@ -55,8 +55,8 @@ const projects = [
       },
       
       {
-        name: "Portfolio",
-        repoSource: "https://github.com/abd-ul-rafay/portfolio",
+        name: "Khiz's Portfolio",
+        repoSource: "https://github.com/khizr-ameer/khizs-Portfolio.git",
         tech: ["React.js", "Tailwind"],
         description:
           "My portfolio website, crafted with React for seamless functionality and adorned with Tailwind CSS for a sleek and responsive design. Explore a showcase of my projects, skills, and experiences, beautifully presented across all devices, ensuring an optimal viewing experience whether you're on a desktop, tablet, or smartphone. From captivating animations to intuitive navigation, every element is thoughtfully designed to captivate and engage visitors. Step into my world and discover the passion and expertise that drive my journey. ",
@@ -89,7 +89,7 @@ const projects = [
     projects: [
       {
         name: "Vocal Odyssey",
-        repoSource: "https://github.com/abd-ul-rafay/Vocal-Odyssey",
+        repoSource: "https://github.com/khizr-ameer/Vocal-Odyssey.git",
         tech: [
           "Flutter",
           "Node.js",
@@ -102,70 +102,91 @@ const projects = [
           "Vocal Odyssey is an AI-powered mobile application developed to help young children enhance their pronunciation and speech through engaging, interactive, and gamified learning. The app guides users through structured levels—phonics, words, and sentences—where children hear audio via text-to-speech and then repeat the word, receiving real-time feedback using AI-based speech scoring. They earn stars and rewards based on accuracy. Parents and teachers can track progress through visual graphs and reports. Admins have tools to manage users, modules, and learning levels. Developed as a final year project, the app brings together active speech training with educational gamification.",
       },
       {
-        name: "TrackED",
-        repoSource: "https://github.com/abd-ul-rafay/TrackED",
-        tech: [
-          "Flutter",
-          "Firebase",
-          "Qr_code_scanner",
-          "File_picker",
-          "Excel",
-        ],
+        name: "Bitlium",
+        repoSource: "https://github.com/khizr-ameer/Bitlium-Android.git",
+            tech: [
+        "Java (Android)",
+        "Retrofit",
+        "Gson",
+        "Glide",
+        "Firebase Authentication",
+        "CoinGecko API",
+        "SharedPreferences",
+        "RecyclerView"
+      ],
         description:
-          "The mobile application facilitates the marking of student attendance via QR codes and enables the sending of SMS notifications to parents. Users are categorized into super admin, sub admin, teacher, or guard roles. Super admins can create multiple schools and corresponding user accounts. Sub admins have the authority to create users within their own school. Student attendance records are stored within users' lists (teachers, guards) and can be exported in Excel format. Teachers can manage multiple subjects, each with details such as gender distribution and duration. Additionally, they can create and manage multiple groups for sending group messages to designated phone numbers. The app provides daily and monthly reports in tabular and chart formats respectively. Users have the ability to create grades, sections, and manage student details, including generating QR codes for students.",
-      },
-      {
-        name: "BuyRight",
-        repoSource: "https://github.com/abd-ul-rafay/buy_right",
-        tech: ["Flutter", "Node.jS", "Express.js", "MongoDB"],
-        description: "BuyRight is a comprehensive Flutter-based ecommerce mobile application, offering users a seamless shopping experience with features including user authentication, product browsing with detailed descriptions and images, shopping cart functionality, order placement and tracking, and a user-friendly interface for payments via various gateways. The app also provides administrators with robust management tools, allowing them to add products, track orders, manage users, and gain valuable insights into business performance through analytics tools. Powered by Flutter for the frontend, Node.js/Express.js for the backend, and MongoDB for the database, BuyRight ensures efficiency and reliability in every aspect of online shopping and administration.",
-      },
-      {
-        name: "Instagram Clone",
-        repoSource: "https://github.com/abd-ul-rafay/Instagrarm-Clone",
-        tech: ["Flutter"],
-        description:
-          "This Instagram clone, developed for practice purposes, showcases the integration of network images for demonstration. It offers both light and dark themes to users, allowing them to personalize their experience seamlessly.",
-      },
-      {
-        name: "Music Player",
-        repoSource: "https://github.com/abd-ul-rafay/Music-Player-App",
-        tech: ["Android Native", "Java"],
-        description:
-          "A cutting-edge music player app, designed to elevate your listening experience to new heights. Seamlessly fetching all your favorite tracks, whether they're in .mp3 or .wav format, the app presents them in a sleek Recycler View interface for effortless navigation. With just a tap, immerse yourself in a world of melody as you're transported to a dedicated music player activity, complete with a dynamic loading indicator ensuring smooth playback. With intuitive controls at your fingertips—prev, pause, and next buttons—you're in full command of your musical journey, making every moment a symphony of delight.",
+          "Bitlium is an Android cryptocurrency trading simulator that provides a beginner-friendly platform to practice crypto trading without real money. Features live market data for top 25 cryptocurrencies via CoinGecko API, simulated buy/sell transactions with amount input, secure Firebase Authentication for login/signup, and local storage of trading history using SharedPreferences. Displays real-time prices, coin logos, and detailed coin information with a smooth, intuitive interface built with Java and RecyclerView.",
       },
       {
         name: "Notes App",
-        repoSource: "https://github.com/abd-ul-rafay/Notes-App",
-        tech: ["Android Native", "Kotlin", "Room DB"],
+        repoSource: "https://github.com/khizr-ameer/Note-Taking-App.git",
+        tech: [
+                "Java",
+                "XML Layouts",
+                "RecyclerView",
+                "Internal Storage (File I/O)",
+                "Android Activities",
+                "Intents",
+                "AlertDialog"
+              ],
+        description: "Note Taking App is a lightweight Android application for creating, viewing, editing, and deleting notes with a clean and intuitive interface. All notes are stored securely in the device's internal storage as individual .txt files, ensuring privacy without requiring external permissions. Features include a RecyclerView-based notes list, full note editing capabilities, delete confirmation dialogs, and seamless navigation between activities. Built with Java, XML layouts, and Android's internal file I/O system for efficient local data management.",
+      },
+      {
+        name: "KAC Web Browser",
+        repoSource: "https://github.com/khizr-ameer/KACs-Web-Browser.git",
+        tech: [
+                "Java",
+                "XML Layouts",
+                "Android WebView",
+                "Android Activities",
+                "Popup Menu",
+                "Android Studio"
+              ],
         description:
-          "Advanced Notes app, empowered by Room Database technology for seamless note management. Create, read, update, and delete notes effortlessly, ensuring your thoughts and ideas are always organized and easily accessible. Need to find a specific note? Our app offers a convenient search function, enabling swift retrieval of your most important memos. Plus, each note is stamped with the date it was added, providing valuable context and chronology to your entries. And when it's time for a fresh start, our app simplifies the process with a one-tap option to delete all notes, giving you a clean slate to begin anew. Experience the ultimate in note-taking convenience with our feature-rich app.",
-      }
+        "KACS Browser is a lightweight Android web browser application featuring a clean interface with quick-access shortcuts to popular platforms (Facebook, GitHub, LinkedIn, Reddit). Users can browse any website via URL input, navigate with back/forward/reload/stop controls, and access additional options through an overflow menu. Built entirely with native Android components, the app leverages WebView for dynamic web rendering and provides essential browsing functionality in a minimalist design.",
+      },
+      // {
+      //   name: "Music Player",
+      //   repoSource: "https://github.com/abd-ul-rafay/Music-Player-App",
+      //   tech: ["Android Native", "Java"],
+      //   description:
+      //     "A cutting-edge music player app, designed to elevate your listening experience to new heights. Seamlessly fetching all your favorite tracks, whether they're in .mp3 or .wav format, the app presents them in a sleek Recycler View interface for effortless navigation. With just a tap, immerse yourself in a world of melody as you're transported to a dedicated music player activity, complete with a dynamic loading indicator ensuring smooth playback. With intuitive controls at your fingertips—prev, pause, and next buttons—you're in full command of your musical journey, making every moment a symphony of delight.",
+      // },
+      // {
+      //   name: "Notes App",
+      //   repoSource: "https://github.com/abd-ul-rafay/Notes-App",
+      //   tech: ["Android Native", "Kotlin", "Room DB"],
+      //   description:
+      //     "Advanced Notes app, empowered by Room Database technology for seamless note management. Create, read, update, and delete notes effortlessly, ensuring your thoughts and ideas are always organized and easily accessible. Need to find a specific note? Our app offers a convenient search function, enabling swift retrieval of your most important memos. Plus, each note is stamped with the date it was added, providing valuable context and chronology to your entries. And when it's time for a fresh start, our app simplifies the process with a one-tap option to delete all notes, giving you a clean slate to begin anew. Experience the ultimate in note-taking convenience with our feature-rich app.",
+      // }
     ],
   },
   {
     name: "Others",
     projects: [
       {
-        name: "Shopping Management System",
-        repoSource: "https://github.com/abd-ul-rafay/Shopping-Management",
-        tech: ["C++"],
+        name: "CNN based Image Classification",
+        repoSource: "https://github.com/khizr-ameer/CNN-based-Image-Classification.git",
+        tech: [
+                "TensorFlow",
+                "Keras",
+                "Python",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn",
+                "CIFAR-10 Dataset",
+                "CNN (Convolutional Neural Network)"
+              ],
         description:
-          "The Shopping Management System, implemented in C++, serves as a comprehensive platform facilitating product management and customer transactions. Administrators can seamlessly add, remove, update, and read product information, ensuring an organized inventory. Meanwhile, customers enjoy a user-friendly interface to browse and purchase items. Leveraging efficient file handling techniques, the system securely stores data, guaranteeing reliability and persistence across sessions. With its robust functionality, the Shopping Management System streamlines the shopping experience for both administrators and customers, enhancing efficiency and convenience in retail operations.",
+        "CNN-based Image Classification is a deep learning project that classifies images into 10 categories (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck) using the CIFAR-10 dataset. Features a Convolutional Neural Network with regularization techniques, image preprocessing and normalization, model performance evaluation with confusion matrix visualization, and custom image prediction capabilities through file upload or webcam input. Built with TensorFlow and Keras for accurate multi-class image recognition.",
       },
+     
       {
-        name: "Library Management System",
-        repoSource: "https://github.com/abd-ul-rafay/Library-Management",
-        tech: ["SQL", "MySQL"],
-        description:
-          "The Library Management System, powered by SQL and MySQL, offers a comprehensive solution for efficiently organizing and managing library resources. Users can seamlessly add, update, and categorize books by various attributes such as author, publisher, and genre, ensuring easy accessibility and navigation. Additionally, the system enables the registration and management of library members, facilitating borrowing and returning processes. Leveraging the robust capabilities of SQL and MySQL, the system ensures efficient data management and retrieval, guaranteeing the integrity and security of library information.",
-      },
-      {
-        name: "Space Invaders",
-        repoSource: "https://github.com/abd-ul-rafay/Space-Invaders-Game",
+        name: "Space Shooter",
+        repoSource: "https://github.com/khizr-ameer/Space-Shooter-Game.git",
         tech: ["Python", "PyGame"],
         description:
-          "Space Invader is an exciting arcade game created in Python, throwing players into an intense space battle. With three thrilling difficulty levels - Easy, Medium, and Hard - you'll face waves of enemy ships invading the galaxy. Armed with bullets, your mission is to pilot your spacecraft and destroy these invaders with precision shooting. Each level offers its own mix of excitement and challenge, making it suitable for players of all skill levels. Get ready for an immersive experience where your reflexes, strategy, and determination will be put to the test as you fight to save the galaxy from destruction by the alien threat.",
+          "Space Shooter is an exciting arcade game created in Python, throwing players into an intense space battle. With three thrilling difficulty levels - Easy, Medium, and Hard - you'll face waves of enemy ships invading the galaxy. Armed with bullets, your mission is to pilot your spacecraft and destroy these invaders with precision shooting. Each level offers its own mix of excitement and challenge, making it suitable for players of all skill levels. Get ready for an immersive experience where your reflexes, strategy, and determination will be put to the test as you fight to save the galaxy from destruction by the alien threat.",
       },
       {
         name: "Disease Tracking System",
@@ -174,13 +195,21 @@ const projects = [
         description:
           "The Disease Management System, built with C++ and utilizing the Standard Template Library (STL), provides a robust platform for effectively managing diseases within a specific area. Users can seamlessly enter, view, and generate reports on various diseases and their respective patients. Leveraging the power of C++ and STL, the system ensures efficient data storage, retrieval, and manipulation, optimizing the management of disease-related information.",
       },
-      {
-        name: "Netflix Clone",
-        repoSource: "https://github.com/abd-ul-rafay/Netflix-Clone/",
-        tech: ["HTML", "CSS", "JavaScript"],
+       {
+        name: "Library Management System",
+        repoSource: "https://github.com/khizr-ameer/Library-Management",
+        tech: ["SQL", "MySQL"],
         description:
-          "The Netflix Clone, crafted with HTML, CSS, and Javascript, delivers a captivating streaming experience reminiscent of the popular entertainment platform. Seamlessly blending design aesthetics with functionality, the clone features a visually appealing user interface, complete with vibrant thumbnails and intuitive navigation elements.",
+          "The Library Management System, powered by SQL and MySQL, offers a comprehensive solution for efficiently organizing and managing library resources. Users can seamlessly add, update, and categorize books by various attributes such as author, publisher, and genre, ensuring easy accessibility and navigation. Additionally, the system enables the registration and management of library members, facilitating borrowing and returning processes. Leveraging the robust capabilities of SQL and MySQL, the system ensures efficient data management and retrieval, guaranteeing the integrity and security of library information.",
       },
+
+      // {
+      //   name: "Netflix Clone",
+      //   repoSource: "https://github.com/abd-ul-rafay/Netflix-Clone/",
+      //   tech: ["HTML", "CSS", "JavaScript"],
+      //   description:
+      //     "The Netflix Clone, crafted with HTML, CSS, and Javascript, delivers a captivating streaming experience reminiscent of the popular entertainment platform. Seamlessly blending design aesthetics with functionality, the clone features a visually appealing user interface, complete with vibrant thumbnails and intuitive navigation elements.",
+      // },
     ],
   },
 ];
