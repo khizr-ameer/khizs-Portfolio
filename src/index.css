@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Setting Colors */
+.primary-color {
+  @apply text-sky-500 dark:text-sky-400;
+}
+
+.secondary-color {
+  @apply text-slate-900 dark:text-slate-200;
+}
+
+.greyish-color {
+  @apply text-slate-700 dark:text-slate-400;
+}
+
+.greyish-primary {
+  @apply greyish-color;
+  transition: color 0.2s ease;
+}
+
+.greyish-primary:hover {
+  @apply primary-color;
+}
+
+/* Scrollbar Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #495670; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5e6f91; 
+}
+
+/* Custom Styles */
+.animated-element {
+  opacity: 0;
+  filter: blur(1px);
+  transition: opacity 0.5s ease-out, filter 0.5s ease, transform 1s cubic-bezier(0.165, 0.84, 0.44, 1); 
+}
+
+.visible {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0) translateY(0);
+}
+
+.calculated-vh {
+  min-height: calc(100vh - 4rem);
+}
