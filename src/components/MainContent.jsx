@@ -26,7 +26,7 @@ const MainContent = () => {
         </p>
       </IntersectionAnim>
       <IntersectionAnim index={10} delay={0.1} type={"transLeft"}>
-        <a href="https://drive.google.com/drive/folders/1QFFO98OTKL0xYeEIYMGDvVm-oRgj4iNQ?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/drive/folders/1Kyl_xNKYbOlEJXQ1rSLC9_KXi7NxqIiz?usp=sharing" target="_blank">
           <div className="pt-12 pb-20 md:pt-8 md:pb-0">
             <OutlinedButton text={"Check out my resume!"} />
           </div>
