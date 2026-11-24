@@ -36,8 +36,8 @@ const AboutContent = () => {
             className={`aspect-square object-cover rounded-md absolute bg-gray-200 dark:bg-gray-800 transition-all duration-500 ${
               isImageHovered && "scale-105"
             }`}
-            src="profile.png"
-            alt="profile"
+            src="profile-image.jpeg"
+            alt="profile-image"
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
